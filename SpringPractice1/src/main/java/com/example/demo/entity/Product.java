@@ -34,6 +34,7 @@ public class Product {
 		return price;
 	}
 	
+	//表示したい文字の格納
 	public String getProductInfo() {
 		return "product_id=" + productId + ", product_name=" + productName + ", price=" + price;
 	}
